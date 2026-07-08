@@ -1,0 +1,5 @@
+# Pin Dockyard to stable Rust. The machine's global default is intentionally an
+# older toolchain (for other projects), but Tauri 2's dependency tree requires a
+# recent edition2024-capable compiler.
+[toolchain]
+channel = "stable"
